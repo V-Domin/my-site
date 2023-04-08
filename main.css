@@ -1,0 +1,517 @@
+body{
+    margin: 0;
+    background-color: #C3ACD0;
+    text-align: center;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+
+p {
+    margin: 0 0 10px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1em;
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Montserrat', sans-serif;
+
+    color: #545454;
+}
+
+a{
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #674188;
+    font-size: 1.875em;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #9f58c9;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.divider {
+    color: rgb(239, 237, 237);
+    font-size: 2.5em;
+}
+
+/* NAV BAR */
+nav {
+    max-width: 980px;
+    background-color: #C3ACD0;
+}
+
+.nav-link {
+    color: #674188;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+
+a.nav-link:hover {
+    color: #F7EFE5;
+}
+
+
+/* MAIN SECTION */
+
+
+#main {
+    background-color: #C3ACD0;
+    /* padding-top: 130px; */
+    position: relative;
+    margin-bottom: 50px;
+    padding-top: 55px;
+    text-align: center;
+
+    color: #674188;
+}
+
+.main-img {
+    width: 60%;
+}
+
+.my_name {
+    font-size: 5em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.programmer {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+    padding: 10px;
+    color: #674188;
+}
+
+
+.pro {
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.pro:hover{
+    font-size: 1.875em;
+    color: #FFFBF5;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    margin-top: 0;
+}
+
+/* ABOUT ME SECTION */  
+
+#about-me {
+    background-color: white;
+}
+
+.about-me-img {
+    width: 170px;
+}
+
+.short-entry {
+    width: 450px;
+    margin: 0 auto;
+    color: #545454;
+    line-height: 30px;
+}
+
+/* Skills sub-section */
+
+.skill-img {
+    width: 60%;
+}
+
+#skills {
+    width: 1000px;
+}
+
+
+.skill-title {
+    text-align: left;
+}
+
+.skill-title.english {
+    margin-top: 60px;
+    padding-top: 35px;
+}
+
+.skill-title.dev {
+    padding-top: 25px;
+}
+
+.skill-desc {
+    text-align: left;
+    color: #545454;
+    line-height: 2;
+    width: 500px;
+}
+
+.row {
+    margin-bottom: 50px;
+}
+
+/* CONTAC SECTION */
+
+#contact {
+    background-color: white;
+}
+
+.button-58 {
+    align-items: center;
+    background-color: #8023b5;
+    border: 2px solid #8023b5;
+    box-sizing: border-box;
+  
+    color: #FFFBF5;
+  
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 5px;
+    letter-spacing: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding-right: 25px;
+    margin-bottom: 80px;
+  }
+  
+  
+  .button-58:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #674188;
+  }
+
+
+.letter-icon {
+    padding-right: 12px;
+}
+
+
+/* FOOTER SECTION */
+
+.footer {
+    max-width: 350px;
+}
+
+.col i {
+    font-size: 38px;
+    padding-top: 40px;
+    color: #674188;
+    transition: all .3s;
+}
+
+.col i:hover {
+    color: #FFFBF5;
+}
+
+
+.name {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #F7EFE5;
+}
+
+
+/* ---------------------------- WORK PAGE ---------------------------- */
+
+/* INTRO SECTION */
+
+#intro {
+    background-color: white;
+}
+
+#intro a{
+    text-decoration: underline;
+    color: #674188;
+	text-underline-offset: 0.3em;
+
+}
+
+.pencil-img {
+    width: 120px;
+    margin-top: 80px;
+}
+
+.intro-desc {
+    font-size: 18px;
+    width: 550px;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-bottom: 80px;
+}
+
+.contact-work {
+    padding-top: 70px;
+}
+
+
+/* TEACHHUB PROJECT */
+
+
+.tag-section {
+    width: 550px;
+    
+}
+
+.project-title-p {
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 32px;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+.container{
+    width: 600px;
+}
+
+.tag-p {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #674188;
+    padding: 3px 10px;
+    margin: 3px 15px;
+    
+    font-size: 18px;
+
+}
+
+.project-desc-p {
+    font-size: 18px;
+    width: 680px;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+    color: #fff;
+}
+
+.project-button-live-p {
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.project-button-live-p:hover {
+    background-color: #C3ACD0;
+    border-color: #674188;
+}
+
+.project-button-code-p {
+    background-color: #C3ACD0;
+    border-color: #674188;
+    color: #674188;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.project-button-code-p:hover {
+    background-color: #674188;
+    color: #fff;
+    border-color: #674188;
+}
+
+/* BREW BALANCE PROJECT */
+
+#brew-balance-w {
+    background-color: #fff;
+}
+
+.project-title-w {
+    color: #674188;
+    padding-top: 48px;
+    padding-bottom: 36px;
+}
+
+.tag-w {
+    background-color: #9f58c9;
+    border-radius: 10px;
+    color: #fff;
+    padding: 3px 10px;
+    margin: 3px 15px;
+    
+    font-size: 18px;
+}
+
+.project-desc-w {
+    font-size: 18px;
+    width: 680px;
+    margin: 0 auto;
+    line-height: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+    color: #545454;
+}
+
+.project-button-live-w {
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.project-button-live-w:hover{
+    border-color: #674188;
+}
+
+.project-button-code-w {
+    background-color: #fff;
+    border-color: #674188;
+    color: #674188;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.project-button-code-w:hover {
+    background-color: #674188;
+    color: #fff;
+}
+
+
+/* ---------------------------- NOTES SECTION ---------------------------- */
+
+#story {
+    background-color: white;
+}
+
+.story-title {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.story-subtitle {
+    width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    padding-bottom: 30px;
+    line-height: 1.8;
+    font-size: 25px;
+
+}
+
+#story p{
+    text-align: left;
+    width: 700px;
+    line-height: 1.8;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#story a{
+    color: #674188;
+	text-underline-offset: 0.3em;
+}
+
+.contact-notes {
+    padding-top: 80px;
+}
+
+.notes-img {
+    width: 35%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* NAV BAR */
+    .logo-img {
+        margin-left: 45px;
+        height: 75px;
+        width: 75px;
+        margin-bottom: 5px;
+    }
+
+    .menu-bar {
+        margin-right: 45px;
+    }
+
+    /* SKILLS SECTION */
+
+    #skills {
+        width: 460px;
+    }
+
+    .skill-img {
+        width: 40%;
+        margin: 0 auto;
+        padding-right: 20px;
+    }
+
+    .skill-img-eng {
+        padding-top: 30px;
+    }
+    
+    .skill-title {
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    .skill-desc {
+        text-align: center;
+        font-size: 15px;
+        width: 460px;
+        padding-right: 20px;
+    }
+
+    /* ----------------------- WORK PAGE ----------------------- */
+
+
+    #main {
+        width: 470px;
+    }
+
+    .main-img {
+        width: 100%;
+    }
+
+    /* INTRO */
+
+    .intro-desc {
+        width: 470px;
+    }
+
+
+    /* PROJECTS */
+
+    .project-desc-w,
+    .project-desc-p {
+        width: 470px;
+    }
+
+    .row {
+        width: 470px;
+    }
+
+    .tag-p {
+        font-size: 14px;
+    }
+}
+
