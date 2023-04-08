@@ -440,11 +440,7 @@ h1 {
     width: 35%;
 }
 
-@media only screen 
-  and (device-width: 414px) 
-  and (device-height: 896px) 
-  and (-webkit-device-pixel-ratio: 2)
-  and (orientation: portrait)  {
+@media only screen and (max-width: 768px) {
     /* NAV BAR */
     .logo-img {
         margin-left: 45px;
